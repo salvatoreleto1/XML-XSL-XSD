@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+meter_readings.xsd document
+Student Name: Salvatore Leto
+Student ID: 18633649
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name="meterData">
+  <xs:sequence>
+    <xs:element ref="reading" />
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="meterInfo">
+  <xs:complexContent>
+    <xs:extension base="meterData">
+      <xs:attributeGroup ref="details"/>
+    </xs:extension>
+  </xs:complexContent>
+</xs:complexType>
+
+<xs:complexType name="meters">
+  <xs:sequence>
+    <xs:element ref="meter" maxOccurs="3"/>
+  </xs:sequence>
+</xs:complexType>
+
+<!-- My groupings are define below -->
+
+<xs:attributeGroup name="details">
+    <xs:attribute name="meterNumber" type="xs:string"/>
+    <xs:attribute name="date" type="xs:date"/>
+</xs:attributeGroup>
+
+<!-- Complex types -->
+<xs:element name="meters" type="meters"/>
+<xs:element name="meter" type="meterInfo"/>
+
+<!-- Simple type -->
+<xs:element name="reading" type="xs:string"/>
+
+</xs:schema>

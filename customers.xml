@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+customers.xml document
+Student Name: Salvatore Leto
+Student ID: 18633649
+-->
+<!-- The following data is the customer data -->
+<customers>
+    <customer customerNumber="BL343456" meterNumber="134456">
+        <name>
+            <title></title>
+            <firstName>Bart</firstName>
+            <middleName></middleName>
+            <lastName>Simpson</lastName>
+        </name>
+        <address>
+            <street>45 Olive dr.</street>
+            <suburb>Sydney</suburb>
+            <postcode>2000</postcode>
+            <state>NSW</state>
+        </address>
+        <telephone>0298576433</telephone>
+        <telephone>0413335678</telephone>
+        <telephone>0296784455</telephone>
+        <previousMeterReadings>
+            <reading meterReading="62990">
+                <date>2017-11-29</date>
+                <amountDue>0.00</amountDue>
+                <paymentDate></paymentDate>
+                <amountPaid></amountPaid>
+            </reading>
+            <reading meterReading="64492">
+                <date>2018-02-28</date>
+                <amountDue>242.21</amountDue>
+                <paymentDate>2018-03-30</paymentDate>
+                <amountPaid>242.21</amountPaid>
+            </reading>
+            <reading meterReading="65374">
+                <date>2018-05-29</date>
+                <amountDue>157.23</amountDue>
+                <paymentDate>2018-06-24</paymentDate>
+                <amountPaid>157.23</amountPaid>
+            </reading>
+            <reading meterReading="66348">
+                <date>2018-08-29</date>
+                <amountDue>170.60</amountDue>
+                <paymentDate>2018-09-19</paymentDate>
+                <amountPaid>170.60</amountPaid>
+            </reading>
+        </previousMeterReadings>
+    </customer>
+    <customer customerNumber="TR567903" meterNumber="342566">
+        <name>
+            <title></title>
+            <firstName>Donald</firstName>
+            <middleName></middleName>
+            <lastName>Duck</lastName>
+        </name>
+        <address>
+            <street>12 Grey place</street>
+            <suburb>Sometown</suburb>
+            <postcode>9876</postcode>
+            <state>NSW</state>
+        </address>
+        <telephone>0432226677</telephone>
+        <previousMeterReadings>
+            <reading meterReading="28132">
+                <date>2018-08-29</date>
+                <amountDue>0.00</amountDue>
+                <paymentDate></paymentDate>
+                <amountPaid></amountPaid>
+            </reading>
+        </previousMeterReadings>
+    </customer>
+    <customer customerNumber="VL305888" meterNumber="234567">
+        <name>
+            <title>Ms</title>
+            <firstName>Minni</firstName>
+            <middleName></middleName>
+            <lastName>Mouse</lastName>
+        </name>
+        <address>
+            <street>368 King st </street>
+            <suburb>Cartooncity</suburb>
+            <postcode>5678</postcode>
+            <state>NSW</state>
+        </address>
+        <telephone>0445566543</telephone>
+        <telephone>0688763344</telephone>
+        <previousMeterReadings>
+             <reading meterReading="998">
+                <date>2018-05-29</date>
+                <amountDue>0.00</amountDue>
+                <paymentDate></paymentDate>
+                <amountPaid></amountPaid>
+            </reading>
+            <reading meterReading="998">
+                <date>2018-08-29</date>
+                <amountDue>34.32</amountDue>
+                <paymentDate>2019-09-16</paymentDate>
+                <amountPaid>34.32</amountPaid>
+            </reading>
+        </previousMeterReadings>
+    </customer>
+</customers>
